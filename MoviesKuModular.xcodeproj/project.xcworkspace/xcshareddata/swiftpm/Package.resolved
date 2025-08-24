@@ -1,0 +1,105 @@
+{
+  "originHash" : "3da3705fbb16a7f9fec3149e02710d6d47d5f1472add0e0b158acf38c3687192",
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "513364f870f6bfc468f9d2ff0a95caccc10044c5",
+        "version" : "5.10.2"
+      }
+    },
+    {
+      "identity" : "modularization-data-module-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zeekands/Modularization-Data-Module-IOS",
+      "state" : {
+        "branch" : "main",
+        "revision" : "3741cddfe459153ef5c6864096728438c11513db"
+      }
+    },
+    {
+      "identity" : "modularization-domain-module-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zeekands/Modularization-Domain-Module-IOS.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "c374e095e34154390aec598af2d30f2b0f6a72b6"
+      }
+    },
+    {
+      "identity" : "modularization-feature-favorite-module-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zeekands/Modularization-Feature-Favorite-Module-IOS",
+      "state" : {
+        "branch" : "main",
+        "revision" : "701011288196c0cf422c53ae46786583917a4714"
+      }
+    },
+    {
+      "identity" : "modularization-feature-movies-module-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zeekands/Modularization-Feature-Movies-Module-IOS",
+      "state" : {
+        "branch" : "main",
+        "revision" : "29ab05c9a093f126d409c9c143de2b94f3501ded"
+      }
+    },
+    {
+      "identity" : "modularization-feature-onboarding-module-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zeekands/Modularization-Feature-OnBoarding-Module-IOS",
+      "state" : {
+        "branch" : "main",
+        "revision" : "8da9dbae8b897d9bccd9c710da615dd477724067"
+      }
+    },
+    {
+      "identity" : "modularization-feature-search-module-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zeekands/Modularization-Feature-Search-Module-IOS",
+      "state" : {
+        "branch" : "main",
+        "revision" : "f80c69da9a80e15024b620eb82dab9a3ddced678"
+      }
+    },
+    {
+      "identity" : "modularization-feature-tvshow-module-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zeekands/Modularization-Feature-TvShow-Module-IOS",
+      "state" : {
+        "branch" : "main",
+        "revision" : "e75684a4565f7bc6465db25bdb2b83f15670d1db"
+      }
+    },
+    {
+      "identity" : "modularization-ui-module-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zeekands/Modularization-UI-Module-IOS",
+      "state" : {
+        "branch" : "main",
+        "revision" : "5360adc368d4ae554771971aa89ddc705827e62e"
+      }
+    },
+    {
+      "identity" : "realm-core",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-core.git",
+      "state" : {
+        "revision" : "15493076ad9fef22c16cc64cbfbf9e5b65c385f9",
+        "version" : "20.1.0"
+      }
+    },
+    {
+      "identity" : "realm-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-swift.git",
+      "state" : {
+        "revision" : "6260534683132eb981338c7c39fd5e69205876e6",
+        "version" : "20.0.3"
+      }
+    }
+  ],
+  "version" : 3
+}

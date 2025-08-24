@@ -1,0 +1,14 @@
+//
+//  Config.xcconfig
+//  MovieCatalog
+//
+//  Created by zeekands on 08/07/25.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://developer.apple.com/documentation/xcode/adding-a-build-configuration-file-to-your-project
+
+TMDB_ACCESS_TOKEN = eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxNTUwNTU4NjRlYTA0NDUxMjc3NzRkNmNjYzM0ZjQ4OSIsIm5iZiI6MTYxOTExMzY0OC42OTgsInN1YiI6IjYwODFiNmIwNjVlMGEyMDA1NzY1NWRlMCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.VKnJZU7oJSXPZNoXvg8VgBwA5u3LND1jlmIfChDdcsM
+
+// Variabel untuk Base URL
+TMDB_BASE_URL = https:/api.themoviedb.org/3

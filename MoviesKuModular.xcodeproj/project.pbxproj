@@ -6,6 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C6B7E3312E5B4818003AF681 /* SharedDomain in Frameworks */ = {isa = PBXBuildFile; productRef = C6B7E3302E5B4818003AF681 /* SharedDomain */; };
+		C6B7E3342E5B484A003AF681 /* SharedData in Frameworks */ = {isa = PBXBuildFile; productRef = C6B7E3332E5B484A003AF681 /* SharedData */; };
+		C6B7E3372E5B4959003AF681 /* SharedUI in Frameworks */ = {isa = PBXBuildFile; productRef = C6B7E3362E5B4959003AF681 /* SharedUI */; };
+		C6B7E33A2E5B4977003AF681 /* FeatureFavorite in Frameworks */ = {isa = PBXBuildFile; productRef = C6B7E3392E5B4977003AF681 /* FeatureFavorite */; };
+		C6B7E33D2E5B4A67003AF681 /* FeatureMovies in Frameworks */ = {isa = PBXBuildFile; productRef = C6B7E33C2E5B4A67003AF681 /* FeatureMovies */; };
+		C6B7E3402E5B4BD5003AF681 /* FeatureOnboarding in Frameworks */ = {isa = PBXBuildFile; productRef = C6B7E33F2E5B4BD5003AF681 /* FeatureOnboarding */; };
+		C6B7E3432E5B4CCE003AF681 /* FeatureSearch in Frameworks */ = {isa = PBXBuildFile; productRef = C6B7E3422E5B4CCE003AF681 /* FeatureSearch */; };
+		C6B7E35D2E5B4E69003AF681 /* FeatureTVShows in Frameworks */ = {isa = PBXBuildFile; productRef = C6B7E35C2E5B4E69003AF681 /* FeatureTVShows */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		C6B7E3132E5B47F9003AF681 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,11 +38,25 @@
 		C6B7E3052E5B47F8003AF681 /* MoviesKuModular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviesKuModular.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6B7E3122E5B47F9003AF681 /* MoviesKuModularTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviesKuModularTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6B7E31C2E5B47F9003AF681 /* MoviesKuModularUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviesKuModularUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B7E35E2E5B4ECA003AF681 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C6B7E3622E5B4ED7003AF681 /* Exceptions for "MoviesKuModular" folder in "MoviesKuModular" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C6B7E3042E5B47F8003AF681 /* MoviesKuModular */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		C6B7E3072E5B47F8003AF681 /* MoviesKuModular */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C6B7E3622E5B4ED7003AF681 /* Exceptions for "MoviesKuModular" folder in "MoviesKuModular" target */,
+			);
 			path = MoviesKuModular;
 			sourceTree = "<group>";
 		};
@@ -52,6 +77,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6B7E35D2E5B4E69003AF681 /* FeatureTVShows in Frameworks */,
+				C6B7E3372E5B4959003AF681 /* SharedUI in Frameworks */,
+				C6B7E3312E5B4818003AF681 /* SharedDomain in Frameworks */,
+				C6B7E3402E5B4BD5003AF681 /* FeatureOnboarding in Frameworks */,
+				C6B7E33D2E5B4A67003AF681 /* FeatureMovies in Frameworks */,
+				C6B7E3342E5B484A003AF681 /* SharedData in Frameworks */,
+				C6B7E33A2E5B4977003AF681 /* FeatureFavorite in Frameworks */,
+				C6B7E3432E5B4CCE003AF681 /* FeatureSearch in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +108,7 @@
 		C6B7E2FC2E5B47F8003AF681 = {
 			isa = PBXGroup;
 			children = (
+				C6B7E35E2E5B4ECA003AF681 /* Config.xcconfig */,
 				C6B7E3072E5B47F8003AF681 /* MoviesKuModular */,
 				C6B7E3152E5B47F9003AF681 /* MoviesKuModularTests */,
 				C6B7E31F2E5B47F9003AF681 /* MoviesKuModularUITests */,
@@ -112,6 +146,14 @@
 			);
 			name = MoviesKuModular;
 			packageProductDependencies = (
+				C6B7E3302E5B4818003AF681 /* SharedDomain */,
+				C6B7E3332E5B484A003AF681 /* SharedData */,
+				C6B7E3362E5B4959003AF681 /* SharedUI */,
+				C6B7E3392E5B4977003AF681 /* FeatureFavorite */,
+				C6B7E33C2E5B4A67003AF681 /* FeatureMovies */,
+				C6B7E33F2E5B4BD5003AF681 /* FeatureOnboarding */,
+				C6B7E3422E5B4CCE003AF681 /* FeatureSearch */,
+				C6B7E35C2E5B4E69003AF681 /* FeatureTVShows */,
 			);
 			productName = MoviesKuModular;
 			productReference = C6B7E3052E5B47F8003AF681 /* MoviesKuModular.app */;
@@ -195,6 +237,16 @@
 			);
 			mainGroup = C6B7E2FC2E5B47F8003AF681;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C6B7E32F2E5B4818003AF681 /* XCRemoteSwiftPackageReference "Modularization-Domain-Module-IOS" */,
+				C6B7E3322E5B484A003AF681 /* XCRemoteSwiftPackageReference "Modularization-Data-Module-IOS" */,
+				C6B7E3352E5B4959003AF681 /* XCRemoteSwiftPackageReference "Modularization-UI-Module-IOS" */,
+				C6B7E3382E5B4977003AF681 /* XCRemoteSwiftPackageReference "Modularization-Feature-Favorite-Module-IOS" */,
+				C6B7E33B2E5B4A67003AF681 /* XCRemoteSwiftPackageReference "Modularization-Feature-Movies-Module-IOS" */,
+				C6B7E33E2E5B4BD5003AF681 /* XCRemoteSwiftPackageReference "Modularization-Feature-OnBoarding-Module-IOS" */,
+				C6B7E3412E5B4CCE003AF681 /* XCRemoteSwiftPackageReference "Modularization-Feature-Search-Module-IOS" */,
+				C6B7E35B2E5B4E69003AF681 /* XCRemoteSwiftPackageReference "Modularization-Feature-TvShow-Module-IOS" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C6B7E3062E5B47F8003AF681 /* Products */;
 			projectDirPath = "";
@@ -271,6 +323,7 @@
 /* Begin XCBuildConfiguration section */
 		C6B7E3242E5B47F9003AF681 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6B7E35E2E5B4ECA003AF681 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -335,6 +388,7 @@
 		};
 		C6B7E3252E5B47F9003AF681 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6B7E35E2E5B4ECA003AF681 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -400,6 +454,7 @@
 				DEVELOPMENT_TEAM = 89KLQVQN8M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoviesKuModular/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +483,7 @@
 				DEVELOPMENT_TEAM = 89KLQVQN8M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoviesKuModular/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -558,6 +614,116 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C6B7E32F2E5B4818003AF681 /* XCRemoteSwiftPackageReference "Modularization-Domain-Module-IOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zeekands/Modularization-Domain-Module-IOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		C6B7E3322E5B484A003AF681 /* XCRemoteSwiftPackageReference "Modularization-Data-Module-IOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zeekands/Modularization-Data-Module-IOS";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C6B7E3352E5B4959003AF681 /* XCRemoteSwiftPackageReference "Modularization-UI-Module-IOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zeekands/Modularization-UI-Module-IOS";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C6B7E3382E5B4977003AF681 /* XCRemoteSwiftPackageReference "Modularization-Feature-Favorite-Module-IOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zeekands/Modularization-Feature-Favorite-Module-IOS";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C6B7E33B2E5B4A67003AF681 /* XCRemoteSwiftPackageReference "Modularization-Feature-Movies-Module-IOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zeekands/Modularization-Feature-Movies-Module-IOS";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C6B7E33E2E5B4BD5003AF681 /* XCRemoteSwiftPackageReference "Modularization-Feature-OnBoarding-Module-IOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zeekands/Modularization-Feature-OnBoarding-Module-IOS";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C6B7E3412E5B4CCE003AF681 /* XCRemoteSwiftPackageReference "Modularization-Feature-Search-Module-IOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zeekands/Modularization-Feature-Search-Module-IOS";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C6B7E35B2E5B4E69003AF681 /* XCRemoteSwiftPackageReference "Modularization-Feature-TvShow-Module-IOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zeekands/Modularization-Feature-TvShow-Module-IOS";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C6B7E3302E5B4818003AF681 /* SharedDomain */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C6B7E32F2E5B4818003AF681 /* XCRemoteSwiftPackageReference "Modularization-Domain-Module-IOS" */;
+			productName = SharedDomain;
+		};
+		C6B7E3332E5B484A003AF681 /* SharedData */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C6B7E3322E5B484A003AF681 /* XCRemoteSwiftPackageReference "Modularization-Data-Module-IOS" */;
+			productName = SharedData;
+		};
+		C6B7E3362E5B4959003AF681 /* SharedUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C6B7E3352E5B4959003AF681 /* XCRemoteSwiftPackageReference "Modularization-UI-Module-IOS" */;
+			productName = SharedUI;
+		};
+		C6B7E3392E5B4977003AF681 /* FeatureFavorite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C6B7E3382E5B4977003AF681 /* XCRemoteSwiftPackageReference "Modularization-Feature-Favorite-Module-IOS" */;
+			productName = FeatureFavorite;
+		};
+		C6B7E33C2E5B4A67003AF681 /* FeatureMovies */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C6B7E33B2E5B4A67003AF681 /* XCRemoteSwiftPackageReference "Modularization-Feature-Movies-Module-IOS" */;
+			productName = FeatureMovies;
+		};
+		C6B7E33F2E5B4BD5003AF681 /* FeatureOnboarding */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C6B7E33E2E5B4BD5003AF681 /* XCRemoteSwiftPackageReference "Modularization-Feature-OnBoarding-Module-IOS" */;
+			productName = FeatureOnboarding;
+		};
+		C6B7E3422E5B4CCE003AF681 /* FeatureSearch */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C6B7E3412E5B4CCE003AF681 /* XCRemoteSwiftPackageReference "Modularization-Feature-Search-Module-IOS" */;
+			productName = FeatureSearch;
+		};
+		C6B7E35C2E5B4E69003AF681 /* FeatureTVShows */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C6B7E35B2E5B4E69003AF681 /* XCRemoteSwiftPackageReference "Modularization-Feature-TvShow-Module-IOS" */;
+			productName = FeatureTVShows;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C6B7E2FD2E5B47F8003AF681 /* Project object */;
 }
