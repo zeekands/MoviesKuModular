@@ -1,0 +1,36 @@
+#
+//  codemagic.yaml
+//  MoviesKuModular
+//
+//  Created by zeekands on 24/08/25.
+//
+
+workflows:
+  ios-project-debug: # workflow ID
+    name: iOS debug # workflow name
+    environment:
+      xcode: latest
+      cocoapods: default
+      vars:
+          XCODE_PROJECT: "TriangleApp.xcodeproj" # Isikan nama project Anda.
+          XCODE_SCHEME: "TriangleApp" # Isikan nama scheme project Anda.
+    scripts:
+      - name: Run tests
+        script: |
+          xcodebuild \
+          -project "$XCODE_PROJECT" \
+          -scheme "$XCODE_SCHEME" \
+          -sdk iphonesimulator \
+          -destination 'platform=iOS Simulator,name=iPhone 16 Pro' \
+          clean build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+      - name: Build debug app
+        script: |
+          xcodebuild build -project "$XCODE_PROJECT" \
+          -scheme "$XCODE_SCHEME" \
+          CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
+    artifacts:
+      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
+    publishing:
+      email:
+        recipients:
+          - azizkandias11@gmail.com
